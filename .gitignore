@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+# downloaded by src/data.py, embeddings cached on first run
+data/

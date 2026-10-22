@@ -1,0 +1,50 @@
+{
+  "corpus_passages": 27943,
+  "questions": 4386,
+  "sample": 200,
+  "retrieval_all_questions": {
+    "hit_rate@1": 0.7271,
+    "hit_rate@3": 0.8472,
+    "hit_rate@10": 0.9097
+  },
+  "answers": {
+    "closed_book": {
+      "n": 200,
+      "yes_no_accuracy": 0.54,
+      "similarity_to_expert": 0.6327,
+      "faithfulness": 0.0915,
+      "fully_supported_answers": 0.0854,
+      "abstention_rate": 0.0
+    },
+    "oracle": {
+      "n": 200,
+      "yes_no_accuracy": 0.73,
+      "similarity_to_expert": 0.6772,
+      "faithfulness": 0.2431,
+      "fully_supported_answers": 0.2062,
+      "abstention_rate": 0.03,
+      "citation_rate": 0.232,
+      "invalid_citation_rate": 0.0
+    },
+    "rag": {
+      "n": 200,
+      "yes_no_accuracy": 0.77,
+      "similarity_to_expert": 0.7084,
+      "faithfulness": 0.2488,
+      "fully_supported_answers": 0.2124,
+      "abstention_rate": 0.045,
+      "citation_rate": 0.3037,
+      "invalid_citation_rate": 0.0
+    },
+    "wrong_context": {
+      "n": 200,
+      "yes_no_accuracy": 0.47,
+      "similarity_to_expert": 0.5396,
+      "faithfulness": 0.0108,
+      "fully_supported_answers": 0.0,
+      "abstention_rate": 0.345,
+      "citation_rate": 0.0992,
+      "invalid_citation_rate": 0.0
+    }
+  }
+}
